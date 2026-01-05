@@ -1,6 +1,5 @@
 package shapes;
 
-
 /**
  * An interface that defines methods to be implemented by shape collection classes.
  * 
@@ -82,5 +81,4 @@ public interface ShapeCollection {
 	 * @return the number of shapes within the collection which have the given name.
 	 */
 	int countShapeOfName(String name);
-	
 }

@@ -59,7 +59,7 @@ public class RightTriangle extends Shape {
      * @return the length of side C (the Hypotenuse) as an integer
      */
     public int getSideC() {
-        return (int) Math.round(Math.sqrt(sideA * sideA + sideB * sideB));
+        return (int) Math.sqrt(sideA * sideA + sideB * sideB);
     }
 
     /**
@@ -101,7 +101,7 @@ public class RightTriangle extends Shape {
      * @param colour the colour of the triangle
      */
     public RightTriangle(String colour) {
-        super(3, "RightTriangle", colour); // 3 sides, name, colour
+        super(3, "Triangle", colour); // 3 sides, name, colour
         this.sideA = 3;
         this.sideB = 4;
     }
@@ -116,7 +116,7 @@ public class RightTriangle extends Shape {
      * @param b      length of side B
      */
     public RightTriangle(String colour, int a, int b) {
-        super(3, "RightTriangle", colour);
+        super(3, "Triangle", colour);
         this.sideA = Math.abs(a);
         this.sideB = Math.abs(b);
     }

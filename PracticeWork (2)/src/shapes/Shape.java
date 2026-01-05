@@ -52,9 +52,9 @@ public abstract class Shape {
 	 * @return the name of the shape
 	 */
 	public String getName() {
-		
 		return name;
 	}
+
 
 	/**
 	 * @return the colour of the shape
